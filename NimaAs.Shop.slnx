@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/Common/" />
+  <Folder Name="/Common/Common.Domain/">
+    <Project Path="Common/Common.Domain/Common.Domain/Common.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Shop/" />
+  <Folder Name="/Shop/Shop.Api/" />
+  <Folder Name="/Shop/Shop.Application/">
+    <Project Path="Shop/Shop.Application/Shop.Application/Shop.Application.csproj" />
+  </Folder>
+  <Folder Name="/Shop/Shop.Config/">
+    <Project Path="Shop/Shop.Config/Shop.Config/Shop.Config.csproj" />
+  </Folder>
+  <Folder Name="/Shop/Shop.Domain/">
+    <Project Path="Shop/Shop.Domain/Shop.Domain/Shop.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Shop/Shop.Infrastructure/">
+    <Project Path="Shop/Shop.Infrastructure/Shop.Infrastructure/Shop.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Shop/Shop.Presentation.Facade/">
+    <Project Path="Shop/Shop.Presentation.Facade/Shop.Presentation.Facade/Shop.Presentation.Facade.csproj" />
+  </Folder>
+  <Folder Name="/Shop/Shop.Query/">
+    <Project Path="Shop/Shop.Query/Shop.Query/Shop.Query.csproj" />
+  </Folder>
+</Solution>
