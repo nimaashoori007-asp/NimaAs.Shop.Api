@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="OrderAgg\Repository\" />
+    <Folder Include="OrderAgg\Events\" />
+    <Folder Include="RoleAgg\Repository\" />
     <Folder Include="UserAgg\Repository\" />
   </ItemGroup>
 
