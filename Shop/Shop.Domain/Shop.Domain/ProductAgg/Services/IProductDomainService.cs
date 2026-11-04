@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Shop.Domain.ProductAgg.Services
 {
-    internal interface IProductDomainService
+    public interface IProductDomainService
     {
+        bool SlugIsExist(string slug);
     }
 }

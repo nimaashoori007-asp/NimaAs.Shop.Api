@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Shop.Domain.SellerAgg
 {
-    internal class SellerStatus
+    public enum SellerStatus
     {
+        New,
+        Accepted,
+        InActive,
+        Rejected
     }
 }

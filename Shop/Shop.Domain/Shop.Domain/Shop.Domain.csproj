@@ -9,7 +9,9 @@
   <ItemGroup>
     <Folder Include="OrderAgg\Repository\" />
     <Folder Include="OrderAgg\Events\" />
+    <Folder Include="ProductAgg\Repository\" />
     <Folder Include="RoleAgg\Repository\" />
+    <Folder Include="SellerAgg\Repository\" />
     <Folder Include="UserAgg\Repository\" />
   </ItemGroup>
 

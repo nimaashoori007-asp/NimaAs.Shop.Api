@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Shop.Domain.SellerAgg.Services
 {
-    internal interface ISellerDomainService
+    public interface ISellerDomainService
     {
+        bool IsValidSellerInformation(Seller seller);
+        bool NationalCodeExistInDataBase(string nationalCode);
     }
 }
