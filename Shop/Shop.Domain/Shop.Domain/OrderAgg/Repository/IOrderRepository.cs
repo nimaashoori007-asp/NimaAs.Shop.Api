@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Common.Domain.Repository;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Shop.Domain.OrderAgg.Repository
 {
-    internal interface IOrderRepository
+    public interface IOrderRepository : IBaseRepository<Order>
     {
+        Task<Order> GetCurrentUserOrder(long userId);
     }
 }

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Common.Domain.Repository;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Shop.Domain.RoleAgg.Repository
 {
-    internal interface IRoleRepository
+    public interface IRoleRepository : IBaseRepository<Role>
     {
     }
 }
