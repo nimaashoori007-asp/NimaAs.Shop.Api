@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/Common/" />
+  <Folder Name="/Common/Common.Application/">
+    <Project Path="Common/Common.Application/Common.Application/Common.Application.csproj" Id="1e86f2cf-c1cd-499e-b6f4-93ec72e7344b" />
+  </Folder>
   <Folder Name="/Common/Common.Domain/">
     <Project Path="Common/Common.Domain/Common.Domain/Common.Domain.csproj" />
   </Folder>
